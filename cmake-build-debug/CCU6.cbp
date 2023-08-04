@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CCU6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/A_moluo/EE2023/CCU6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CCU6.elf">
+				<Option output="E:/A_moluo/EE2023/CCU6/cmake-build-debug/CCU6.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/A_moluo/EE2023/CCU6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F401xC"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/Core/Inc"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/User"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 CCU6.elf"/>
+					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CCU6.elf/fast">
+				<Option output="E:/A_moluo/EE2023/CCU6/cmake-build-debug/CCU6.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/A_moluo/EE2023/CCU6/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F401xC"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/Core/Inc"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include"/>
+					<Add directory="E:/A_moluo/EE2023/CCU6/User"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\environment_for_clion_stm32\gcc-arm-none-eabi\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 CCU6.elf/fast"/>
+					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/A_moluo/EE2023/CCU6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/A_moluo/EE2023/CCU6/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/environment_for_clion_stm32/mingw/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/A_moluo/EE2023/CCU6/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Inc/dma.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Inc/gpio.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Inc/main.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Inc/stm32f4xx_it.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Inc/tim.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Inc/usart.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Src/dma.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Src/gpio.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Src/main.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Src/stm32f4xx_it.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Src/syscalls.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Src/sysmem.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Src/system_stm32f4xx.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Src/tim.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Src/usart.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Core/Startup/startup_stm32f401ccux.s">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/CMSIS/LICENSE.txt">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/STM32F401CCUX_FLASH.ld">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/User/A_headfile.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/User/openmv.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/User/openmv.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/User/pid.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/User/pid.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/User/servo.c">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/User/servo.h">
+			<Option target="CCU6.elf"/>
+		</Unit>
+		<Unit filename="E:/A_moluo/EE2023/CCU6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
